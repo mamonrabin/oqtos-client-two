@@ -32,6 +32,8 @@ const ProductSlider: React.FC<productProps> = ({
   const cardType = design?.shop?.cardType || "Default";
   const cardCount = design?.shop?.cardCount || "4cards";
 
+
+
   const desktopCardCount =
     {
       "3cards": 3,

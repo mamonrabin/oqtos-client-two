@@ -71,7 +71,7 @@ const Banner2Slide: React.FC<BannerProps> = ({ mainBanners }) => {
                   alt={banner.title || "banner"}
                   fill
                   priority
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 75vw, 50vw"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 75vw, 100vw"
                   className="object-cover
                   "
                 />

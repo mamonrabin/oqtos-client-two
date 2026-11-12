@@ -76,6 +76,7 @@ const Home = async () => {
   const { data: newArrivalProducts, isLoading: newArrivalLoading } =
     newArrivalResponse;
 
+   
   const { data: bestSelingProduct, isLoading: bestSellingLoading } =
     bestSellingResponse;
 
